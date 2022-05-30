@@ -1,3 +1,3 @@
-<?php include_once('./camera-flask-app.py');?>
+<?php include_once('./camera_flask_app.py');?>
 
   
