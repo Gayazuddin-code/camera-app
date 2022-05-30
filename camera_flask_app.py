@@ -83,6 +83,7 @@ def gen_frames():  # generate frame by frame from camera
                 frame = cv2.putText(cv2.flip(frame, 1), "Recording...", (0, 25), cv2.FONT_HERSHEY_SIMPLEX, 1,
                                     (0, 0, 255), 4)
                 frame = cv2.flip(frame, 1)
+                
 
             try:
                 ret, buffer = cv2.imencode('.jpg', cv2.flip(frame, 1))
